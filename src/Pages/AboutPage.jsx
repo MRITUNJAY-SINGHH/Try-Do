@@ -8,6 +8,9 @@ import company4 from '../assets/images/brand/brand-04.png';
 import company5 from '../assets/images/brand/brand-05.png';
 import company6 from '../assets/images/brand/brand-06.png';
 import findingUs from '../assets/images/bg/finding-us-01.png'
+import team1 from '../assets/images/Team/team-01.jpg';
+import team2 from '../assets/images/Team/team-02.jpg';
+import team3 from '../assets/images/Team/team-03.jpg';
 
 
 const AboutPage = () => {
@@ -82,7 +85,7 @@ const AboutPage = () => {
       </div>
 
       <AboutUs />
-      <div className='py-20 max-w-[1260px] mx-auto'>
+      <div className='py-8 max-w-[1260px] mx-auto'>
         <h3 className='text-4xl leading-6 text-[#1f1f25] font-medium  text-center pb-10'>
           Our Fun Facts
         </h3>
@@ -114,7 +117,7 @@ const AboutPage = () => {
         </div>
       </div>
 
-      <div className='rn-finding-us-area rn-finding-us bg_color--1'>
+      <div className='py-20 rn-finding-us-area rn-finding-us bg_color--1'>
         <div className='inner'>
           <div className='content-wrapper'>
             <div className='content'>
@@ -137,7 +140,185 @@ const AboutPage = () => {
         </div>
       </div>
 
-      <div className='company pt-20 pb-20'>
+      <div className='py-16'>
+        <div className='section-title service-style--3 text-center mb-16 '>
+          <h2 className='title'>Skilled Team</h2>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration.
+          </p>
+        </div>
+        <div className='container mx-auto'>
+          <div className='grid grid-cols-1 md:grid-cols-3 gap-6 '>
+            {/* Team Member 1 */}
+            <div className='flex flex-col items-center team'>
+              <div className='mb-4 thumbnail flex justify-center items-center'>
+                <img
+                  className='w-4/5 rounded-3xl'
+                  src={team1}
+                  alt='Team Member'
+                />
+              </div>
+              <div className='text-center content'>
+                <h4 className='font-medium title text-xl'>Jone Due</h4>
+                <p className='text-md font-medium text-gray-600 designation'>
+                  Sr. Web Developer
+                </p>
+              </div>
+              <div className='mt-4 flex justify-center space-x-4 social-icon'>
+                <a
+                  href='https://www.facebook.com/'
+                  className='text-gray-600 hover:text-blue-600'
+                >
+                  <svg
+                    className='w-6 h-6 fill-current'
+                    viewBox='0 0 320 512'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    {/* Facebook SVG */}
+                  </svg>
+                </a>
+                <a
+                  href='http://linkedin.com/'
+                  className='text-gray-600 hover:text-blue-600'
+                >
+                  <svg
+                    className='w-6 h-6 fill-current'
+                    viewBox='0 0 448 512'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    {/* LinkedIn SVG */}
+                  </svg>
+                </a>
+                <a
+                  href='https://twitter.com/'
+                  className='text-gray-600 hover:text-blue-600'
+                >
+                  <svg
+                    className='w-6 h-6 fill-current'
+                    viewBox='0 0 512 512'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    {/* Twitter SVG */}
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            {/* Team Member 2 */}
+            <div className='flex flex-col items-center team'>
+              <div className='mb-4 thumbnail flex justify-center items-center'>
+                <img
+                  className='w-4/5 rounded-3xl'
+                  src={team2}
+                  alt='Team Member'
+                />
+              </div>
+              <div className='text-center content'>
+                <h4 className='font-medium title text-xl'>Jone Due</h4>
+                <p className='text-md font-medium text-gray-600 designation'>
+                  Sr. Web Developer
+                </p>
+              </div>
+              <div className='mt-4 flex justify-center space-x-4 social-icon'>
+                <a
+                  href='https://www.facebook.com/'
+                  className='text-gray-600 hover:text-blue-600'
+                >
+                  <svg
+                    className='w-6 h-6 fill-current'
+                    viewBox='0 0 320 512'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    {/* Facebook SVG */}
+                  </svg>
+                </a>
+                <a
+                  href='http://linkedin.com/'
+                  className='text-gray-600 hover:text-blue-600'
+                >
+                  <svg
+                    className='w-6 h-6 fill-current'
+                    viewBox='0 0 448 512'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    {/* LinkedIn SVG */}
+                  </svg>
+                </a>
+                <a
+                  href='https://twitter.com/'
+                  className='text-gray-600 hover:text-blue-600'
+                >
+                  <svg
+                    className='w-6 h-6 fill-current'
+                    viewBox='0 0 512 512'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    {/* Twitter SVG */}
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            {/* Team Member 3 */}
+            <div className='flex flex-col items-center team'>
+              <div className='mb-4 thumbnail flex justify-center items-center'>
+                <img
+                  className='w-4/5 rounded-3xl'
+                  src={team3}
+                  alt='Team Member'
+                />
+              </div>
+              <div className='text-center content'>
+                <h4 className='font-medium title text-xl'>Jone Due</h4>
+                <p className='text-md font-medium text-gray-600 designation'>
+                  Sr. Web Developer
+                </p>
+              </div>
+              <div className='mt-4 flex justify-center space-x-4 social-icon'>
+                <a
+                  href='https://www.facebook.com/'
+                  className='text-gray-600 hover:text-blue-600'
+                >
+                  <svg
+                    className='w-6 h-6 fill-current'
+                    viewBox='0 0 320 512'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    {/* Facebook SVG */}
+                  </svg>
+                </a>
+                <a
+                  href='http://linkedin.com/'
+                  className='text-gray-600 hover:text-blue-600'
+                >
+                  <svg
+                    className='w-6 h-6 fill-current'
+                    viewBox='0 0 448 512'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    {/* LinkedIn SVG */}
+                  </svg>
+                </a>
+                <a
+                  href='https://twitter.com/'
+                  className='text-gray-600 hover:text-blue-600'
+                >
+                  <svg
+                    className='w-6 h-6 fill-current'
+                    viewBox='0 0 512 512'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    {/* Twitter SVG */}
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='company pt-10 pb-20'>
         <div className='flex flex-wrap gap-y-12'>
           <div className='brand flex justify-center items-center text-center p-5 basis-[20%]'>
             <img src={company1} alt='company' />

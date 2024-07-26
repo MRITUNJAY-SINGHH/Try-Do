@@ -8,11 +8,7 @@ const Header = () => {
       name: 'Home',
       link: '/',
       submenu: [
-        { name: 'Main Demo', link: '/main-demo' },
-        { name: 'Main Demo Dark', link: '/dark-main-demo' },
-        { name: 'Creative Agency', link: '/creative-agency' },
-        { name: 'Creative One Page', link: '/creative-landing' },
-        { name: 'Creative Portfolio', link: '/creative-portfolio' }
+    
       ],
     },
     { name: 'About', link: '/about', submenu: [] },
@@ -20,8 +16,7 @@ const Header = () => {
       name: 'Services',
       link: '/service',
       submenu: [
-        { name: 'Service', link: '/service' },
-        { name: 'Service Details', link: '/service-details' },
+      
       ],
     },
     { name: 'Contact', link: '/contact', submenu: [] },

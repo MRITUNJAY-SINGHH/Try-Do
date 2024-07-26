@@ -487,3 +487,24 @@ a.rn-btn.btn-white{
     right: 0;
     height: 100%;
 }
+
+
+
+.section-title h2.title {
+    font-size: 60px;
+    margin-bottom: 8px;
+        font-weight: 700;
+            line-height: 1.4074;
+    color: #1f1f25;
+}
+
+.section-title.service-style--3 p {
+    padding: 0 21%;
+    font-weight: 300;
+    color: #717173;
+        font-size: 18px;
+    line-height: 30px;
+}
+
+
+
