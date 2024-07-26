@@ -97,7 +97,7 @@ const aboutCount = [
   return (
     <div className='pt-20 pb-20'>
       <div className='section-title our-work max-w-[1260px] mx-auto mb-10'>
-        <h2 className='title'>Our Works</h2>
+        <h2 className='title max-md:text-center'>Our Works</h2>
         <p className='max-w-[45%]'>
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration.
@@ -121,16 +121,19 @@ const aboutCount = [
           </div>
         ))}
       </Slider>
-      <div className='py-20 max-w-[1260px] mx-auto'>
-        <h3 className='text-4xl leading-6 text-[#1f1f25] font-medium  text-center pb-10'>
+      <div className='py-8 max-w-[1260px] mx-auto'>
+        <h3 className='text-4xl leading-6 text-[#1f1f25] font-medium  text-center pb-10 max-md:pb-5 max-md:text-3xl pt-20'>
           Our Fun Facts
         </h3>
         <div
-          className='about-count flex items-center justify-between my-[30px]'
+          className='about-count flex items-center justify-between my-[30px] max-md:justify-start max-md:flex-wrap max-md:gap-20'
           ref={countUpRef}
         >
           {aboutCount.map((count, index) => (
-            <div key={index} className='w-[20%] text-center text-index'>
+            <div
+              key={index}
+              className='w-[20%] max-md:w-1/2 max-sm:w-full text-center text-index'
+            >
               <h1 className='heading-1'>
                 <CountUp
                   end={viewPortEntered ? count.count : 0}

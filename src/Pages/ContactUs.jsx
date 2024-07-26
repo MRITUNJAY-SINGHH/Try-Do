@@ -17,9 +17,9 @@ const ContactSection = () => {
         </div>
       </div>
 
-      <section className='bg-[#F8F9FC] py-20'>
+      <section className='bg-[#F8F9FC] py-20 max-md:py-10'>
         <div className='container px-6 py-12 mx-auto max-w-[1260px]'>
-          <div>
+          <div className='max-md:text-center'>
             <p className='font-medium text-gray-600'>Contact us</p>
             <h1 className='mt-2 text-2xl font-semibold text-black md:text-3xl'>
               Get in touch
@@ -110,15 +110,15 @@ const ContactSection = () => {
         </div>
       </section>
 
-      <section className=' bg-white pb-40 '>
+      <section className=' bg-white pb-40 max-md:pb-10 '>
         <div className='container px-6 py-12  mx-auto max-w-[1260px]'>
           <div className='lg:flex lg:items-center lg:-mx-10 gap-20'>
             <div className='lg:w-1/2 lg:mx-10'>
-              <h1 className='text-2xl font-semibold text-gray-800 capitalize  lg:text-3xl'>
+              <h1 className='text-2xl font-semibold text-gray-800 capitalize  lg:text-3xl max-md:text-center'>
                 Let’s talk
               </h1>
 
-              <p className='mt-4 text-gray-500 '>
+              <p className='mt-4 text-gray-500 max-md:text-center '>
                 Ask us everything and we would love to hear from you
               </p>
 
@@ -163,7 +163,7 @@ const ContactSection = () => {
               </form>
             </div>
 
-            <div className='w-1/2'>
+            <div className='w-1/2 max-md:hidden'>
               <img
                 className='object-cover mx-auto contact-height md:h-full w-full'
                 src='https://images.unsplash.com/photo-1598257006458-087169a1f08d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'

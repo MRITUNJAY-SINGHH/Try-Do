@@ -86,15 +86,15 @@ const AboutPage = () => {
 
       <AboutUs />
       <div className='py-8 max-w-[1260px] mx-auto'>
-        <h3 className='text-4xl leading-6 text-[#1f1f25] font-medium  text-center pb-10'>
+        <h3 className='text-4xl leading-6 text-[#1f1f25] font-medium  text-center pb-10 max-md:pb-5 max-md:text-3xl'>
           Our Fun Facts
         </h3>
         <div
-          className='about-count flex items-center justify-between my-[30px]'
+          className='about-count flex items-center justify-between my-[30px] max-md:justify-start max-md:flex-wrap max-md:gap-20'
           ref={countUpRef}
         >
           {aboutCount.map((count, index) => (
-            <div key={index} className='w-[20%] text-center text-index'>
+            <div key={index} className='w-[20%] max-md:w-1/2 max-sm:w-full text-center text-index'>
               <h1 className='heading-1'>
                 <CountUp
                   end={viewPortEntered ? count.count : 0}
@@ -319,7 +319,7 @@ const AboutPage = () => {
       </div>
 
       <div className='company pt-10 pb-20'>
-        <div className='flex flex-wrap gap-y-12'>
+        <div className='flex flex-wrap justify-center items-center gap-y-12 max-md:gap-12'>
           <div className='brand flex justify-center items-center text-center p-5 basis-[20%]'>
             <img src={company1} alt='company' />
           </div>

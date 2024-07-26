@@ -6,12 +6,20 @@ import './Footer.css';
 const Footer = () => {
   return (
     <div className=''>
-      <div className='footer-main flex'>
-        <div className='w-1/2'>
-        <div className="footer-left"><div className="inner"><span>Ready To Do This</span><h2>Let's get <br/> to work</h2><a className="rn-button-style--2" href="/contact"><span>Contact Us</span></a></div></div>
-        
+      <div className='footer-main flex max-md:flex-col'>
+        <div className='footer-left w-1/2  max-md:w-full'>
+          <div className='inner'>
+            <span>Ready To Do This</span>
+            <h2>
+              Let's get <br /> to work
+            </h2>
+            <a className='rn-button-style--2' href='/contact'>
+              <span>Contact Us</span>
+            </a>
+          </div>
         </div>
-        <div className='footer-right footer-bg w-1/2 '>
+
+        <div className='footer-right footer-bg w-1/2 max-md:w-full'>
           <div className='footer-right-inner flex justify-around items-center gap-10 h-full'>
             <div className='footer-link'>
               <h4>Quick Link</h4>
@@ -20,7 +28,7 @@ const Footer = () => {
                   <Link to='/portfolio'>Work</Link>
                 </li>
                 <li>
-                  <Link to ='/about'>About</Link>
+                  <Link to='/about'>About</Link>
                 </li>
                 <li>
                   <Link to='/contact'>Let's Talk</Link>
@@ -103,8 +111,6 @@ const Footer = () => {
               </div>
             </div>
           </div>
-      
-         
         </div>
       </div>
     </div>

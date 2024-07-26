@@ -2,19 +2,19 @@ import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
-    <div className='service-area pt-20 pb-20 bg-[#F8F7FD]'>
+    <div className='service-area pt-20 pb-20 bg-[#F8F7FD] max-md:py-0'>
       <div className='container mx-auto'>
-        <div className='flex justify-center max-w-[1260px] mx-auto gap-10'>
+        <div className='flex justify-center max-w-[1260px] mx-auto gap-10 max-md:flex-col'>
           <div className='lg:w-1/3 w-full'>
             <div className='section-title mt-8 md:mt-1 mb-2'>
-              <h2 className='title'>Services</h2>
-              <p>
+              <h2 className='title max-md:text-center'>Services</h2>
+              <p className='max-md:text-center'>
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration.
               </p>
-              <div className='service-btn'>
-                <a className='btn-transparent rn-btn-dark' href='/service'>
-                  <span className='text'>Request Custom Service</span>
+              <div className='service-btn max-md:text-center'>
+                <a className='btn-transparent rn-btn-dark ' href='/service'>
+                  <span className='text '>Request Custom Service</span>
                 </a>
               </div>
             </div>
