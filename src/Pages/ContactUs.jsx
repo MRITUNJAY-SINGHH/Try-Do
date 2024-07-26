@@ -2,23 +2,20 @@
 const ContactSection = () => {
   return (
     <>
-  
-        <div className='pt-32 pb-48 bg-cover bg-center bg-no-repeat bg_image bg_image--17 bg_image '>
-          <div className='container mx-auto'>
-            <div className='flex justify-center'>
-              <div className='text-center pt-24'>
-                <h2 className='title theme-gradient text-[72px] font-bold'>
-                  Contact With Us
-                </h2>
-                <p className='mt-4 text-white'>
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text.
-                </p>
-              </div>
+      <div className='pt-32 pb-48 bg-cover bg-center bg-no-repeat bg_image bg_image--18 bg_image '>
+        <div className='container mx-auto'>
+          <div className='flex justify-center'>
+            <div className='text-center pt-24'>
+              <h2 className='title theme-gradient text-[72px] font-bold'>
+                Contact Us
+              </h2>
+              <p className='text-white'>
+                Home / <span className='text-[#f9004d]'>Contact</span>{' '}
+              </p>
             </div>
           </div>
         </div>
-   
+      </div>
 
       <section className='bg-[#F8F9FC] py-20'>
         <div className='container px-6 py-12 mx-auto max-w-[1260px]'>

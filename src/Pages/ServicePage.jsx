@@ -12,7 +12,7 @@ const ServicePage = () => {
                 Service
               </h2>
               <p className='text-white'>
-                Home / <span className='text-[#f9004d]'>About</span>{' '}
+                Home / <span className='text-[#f9004d]'>Service</span>{' '}
               </p>
             </div>
           </div>
