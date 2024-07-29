@@ -620,7 +620,7 @@ a.rn-btn.btn-white{
          font-size: 85px;
         line-height: 93px;
 }
-.home-card{
+.home-card, .rn-finding-us-area{
     display: none;
 }
 .home-main{
@@ -633,9 +633,12 @@ a.rn-btn.btn-white{
 .home-bg {
     height: 60vh;
 }
+.section-title.service-style--3 p {
+    padding: 0;
 
 
 
+}
 }
 
 
