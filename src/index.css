@@ -615,12 +615,25 @@ a.rn-btn.btn-white{
     max-width: 110px;
 }
 .home-heading{
-    font-size: 45px;
+    font-size: 55px;
     line-height: 65px;
 }
 .home-card{
     display: none;
 }
+.home-main{
+        top: 40%;
+    left: 6%;
+    max-width: 100%;
+    width: 100%;
+}
+
+.home-bg {
+    height: 60vh;
+}
+
+
+
 }
 
 
