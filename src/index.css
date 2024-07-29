@@ -617,17 +617,17 @@ a.rn-btn.btn-white{
     max-width: 110px;
 }
 .home-heading{
-    font-size: 55px;
-    line-height: 65px;
+         font-size: 85px;
+        line-height: 93px;
 }
 .home-card{
     display: none;
 }
 .home-main{
-        top: 40%;
+        top: 30%;
     left: 6%;
-    max-width: 90%;
-    width: 90%;
+    max-width: 60%;
+    width: 60%;
 }
 
 .home-bg {
@@ -655,4 +655,28 @@ a.rn-btn.btn-white{
     margin-top: 20px;
     margin-left: 21px;
     }
+
+    .home-heading{
+         font-size: 60px;
+        line-height: 93px;
+}
+.home-card{
+    display: none;
+}
+.home-main{
+        top: 25%;
+    left: 6%;
+    max-width: 60%;
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
 }

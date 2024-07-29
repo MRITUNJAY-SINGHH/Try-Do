@@ -3,11 +3,11 @@ import aboutImage from '../assets/images/about/about-1.jpg';
       
 const AboutUs = () => {
   return (
-    <div className='flex flex-wrap items-center about justify-center max-w-[1260px] mx-auto gap-20 pt-20 pb-20'>
+    <div className='flex flex-wrap items-center about justify-center max-w-[1260px] mx-auto gap-20 pt-32 pb-20'>
       <div className='w-[40%] max-md:w-1/2 max-sm:w-full'>
         <div className='thumbnail'>
           <img
-            className='w-4/3 max-h-[400px] max-md:w-[70%] max-md:max-w-[70%] mx-auto'
+            className='w-[80%] max-h-[500px] max-md:w-[70%] max-md:max-w-[70%] mx-auto'
             src={aboutImage}
             alt='About Images'
           />

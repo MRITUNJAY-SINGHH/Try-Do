@@ -126,7 +126,7 @@ const aboutCount = [
           Our Fun Facts
         </h3>
         <div
-          className='about-count flex items-center justify-between my-[30px] max-md:justify-start max-md:flex-wrap max-md:gap-20'
+          className='about-count flex items-center justify-between my-[30px] max-md:justify-center max-md:flex-wrap max-md:gap-20'
           ref={countUpRef}
         >
           {aboutCount.map((count, index) => (
