@@ -661,23 +661,17 @@ a.rn-btn.btn-white{
 
     .home-heading{
          font-size: 60px;
-        line-height: 93px;
+        line-height: 75px;
 }
 .home-card{
     display: none;
 }
 .home-main{
-        top: 35%;
-    left: 6%;
+        top: 28% !important;
+    left: 6% !important;
     max-width: 60%;
     width: 60%;
 }
-
-
-
-
-
-
 
 
 
