@@ -11,10 +11,10 @@ import company6 from '../assets/images/brand/brand-06.png';
 const LatestNews = () => {
   return (
     <div className='pt-20 pb-20 max-w-[1260px] mx-auto'>
-      <div className='section-title our-work pb-20 flex items-end'>
+      <div className='section-title our-work pb-20 flex items-end max-md:flex-col max-md:items-center'>
         <div>
-          <h2 className='title'>Latest News</h2>
-          <p className='max-w-[60%]'>
+          <h2 className='title max-md:text-center'>Latest News</h2>
+          <p className='max-w-[60%] max-md:text-center'>
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration.
           </p>
@@ -73,8 +73,8 @@ const LatestNews = () => {
         </div>
       </div>
 
-      <div className='company pt-20 pb-20'>
-        <div className='flex flex-wrap gap-y-12'>
+      <div className='company pt-20 pb-20 max-md:pb-0'>
+        <div className='flex flex-wrap gap-y-12 max-md:justify-around max-md:gap-10'>
           <div className='brand text-center p-5 basis-[20%]'>
             <img src={company1} alt='company' />
           </div>

@@ -603,6 +603,24 @@ a.rn-btn.btn-white{
     font-size: 14px;
     max-width: 100%;
 }
+.our-img-card{
+    flex-direction: column;
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand img{
+    max-width: 110px;
+}
+.home-heading{
+    font-size: 45px;
+    line-height: 65px;
+}
+.home-card{
+    display: none;
+}
 }
 
 
